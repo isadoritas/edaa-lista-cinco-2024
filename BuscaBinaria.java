@@ -10,7 +10,7 @@ public class BuscaBinaria {
       if (arr[meio] ==  chave)
         return meio;
 
-      if (arr[meio] < chave)
+      else if (arr[meio] < chave)
         esquerda = meio + 1;
       else
         direita = meio - 1;
